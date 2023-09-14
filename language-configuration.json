@@ -16,7 +16,8 @@
         { "open": "[", "close": "]" },
 		{ "open": "{", "close": "}" },
         {"open": "(", "close": ")"},
-        { "open": "'", "close": "'", "notIn": ["string", "comment"] }
+        { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+	    {"open":"STRUCT", "close":"END_STRUCT;"
     ],
     // symbols that that can be used to surround a selection
     "surroundingPairs": [
